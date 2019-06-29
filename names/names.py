@@ -19,7 +19,7 @@ f.close()
 # print(len(names_1))
 # print(len(names_1))
 
-duplicates = set(names_1) and set(names_2)
+duplicates = set(names_1) & set(names_2)
 
 end_time = time.time()
 print (f"{len(duplicates)} duplicates:\n\n{', '.join(duplicates)}\n\n")
